@@ -13,4 +13,21 @@ export class AppComponent {
   PI = Math.PI;
 
   a:number = 0.234;
+
+  salario = 1234.
+  
+  heroe = {
+    nombre: "Logan",
+    clave: "Wolverine",
+    edad: 200,
+    direccion:{
+      calle: "Primera", 
+      casa: "19"
+    }
+  }
+
+  valorDePromesa = new Promise( (resolve, reject)=>{
+    setTimeout( ()=>resolve('Llegó la data!'), 3500)
+  } )
+
 }
